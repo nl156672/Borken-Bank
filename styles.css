@@ -1,0 +1,16 @@
+h1 {
+    /*PX die Angabe der der Grösse in pixel*/
+    font-size: 3em;
+    color: rgb(160, 151, 159);
+}
+
+h1  {
+    font-family: "Baskerville", serif;
+}
+
+
+
+body {
+    background-color: lightgray;
+}
+
