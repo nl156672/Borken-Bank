@@ -11,6 +11,13 @@ h1  {
 
 
 body {
-    background-color: lightgray;
+    background-color: white;
+}
+
+
+
+
+header {
+    background-color: rgb(218, 212, 212)
 }
 
