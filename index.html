@@ -3,22 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="/fonts/fontawesome/css/all.min.css" />
     <!--Die sryle.css muss aus allen HTML-Dateien verlinkt werden-->
+    <link rel="stylesheet" href="styles.css">
+    <!--es gibt im Internet dienste, die Styles zu verfügung stllen z.B font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <title>Borken-Bank</title>
 </head>
 <body>
+    <button oneclick="window.location.href = Kontoübersicht.html ;">zur Kontenübersicht</button>
+    <button oneclick="window.location.href = Überweisung durchführen.html ;">Überweisung durchführen</button>
+      
     <header>
       <a1>  <img src="https://www.iconsdb.com/icons/download/black/cash-receiving-128.jpg" </a>
-        <a href="hilfe.html"></a>Hilfe</a>
-        <a href="postfach.html">Postfach</a>
-        <a href="profil.html">Profil</a>
-        <a href="AGB.html">AGB</a>
+      
+       <p><a href="hilfe.html"><i class="fa-solid fa-phone"></i>Hilfe</a></p>
+       <p><a href="postfach.html"><i class="fa-regular fa-envelope"></i>Postfach</a></p>
+       <p><a href="profil.html"><i class="fa-regular fa-user"></i>Profil</a></p>
+       <p><a href="AGB.html"><i class="fa-regular fa-bookmark"></i>AGB</a><p/>
     </header>
-
+     
     <footer>
-  Geschäftssitz... <a href="https://www.borken-bank.de">ZUR HOMEPAGE</a>      
+    <a href="https://www.borken-bank.de"><i class="fa-solid fa-house-user"></i>ZUR HOMEPAGE</a>      
 
 
     </footer>
