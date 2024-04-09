@@ -8,6 +8,10 @@ h1  {
     font-family: "Baskerville", serif;
 }
 
+h2 {
+    font-family: Arial, Helvetica, sans-serif
+}
+
 
 
 body {
@@ -40,14 +44,4 @@ a {
     color: black;
 }
 
-flex-container {
-    display: flex;
-    background-color: DodgerBlue;
-  }
-  
-  .flex-container > div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-  }
+.flex-container 
